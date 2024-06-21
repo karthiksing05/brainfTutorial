@@ -1,0 +1,42 @@
+, ------------------------------------------------ Reading in first digit (and converting from ascii to actual) (on cell 1)
+
+>>, ------------------------------------------------ Reading in first digit (and converting from ascii to actual) (on cell 2)
+
+### Building the first number
+
+< # Go to cell 1 (Holds ten)
+
+++++++++++
+
+< # Go to cell 0
+
+[>[>+>+<<-]>>[<<+>>-]<<<-]>[-]< # Multiplies the tens place and add to cell 2
+
+, ------------------------------------------ # Get plus symbol and then remove it
+
+>>>, ------------------------------------------------ # Store first digit of second number on 3
+
+>>, ------------------------------------------------ # Store second digit of second number on 5
+
+# building the second number in the same way
+
+<
+
+++++++++++
+
+<
+
+[>[>+>+<<-]>>[<<+>>-]<<<-]>[-]<
+
+<
+
+# doing the actual addition (just this part LOL)
+[->>>+<<<]
+
+>>>
+
+print number through modulo operations!
+
+[>>+>+<<<-]>>>[<<<+>>>-]<<+>[<->[>++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<
+
+]>[-]++++++++[<++++++>-]>[<<+>>-]>[<<+>>-]<<]>]<[->>++++++++[<++++++>-]]<[.[-]<]<
