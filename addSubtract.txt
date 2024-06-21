@@ -35,7 +35,7 @@
 
 >>>
 
-print number through modulo operations!
+# print number through modulo operations!
 
 [>>+>+<<<-]>>>[<<<+>>>-]<<+>[<->[>++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<
 
